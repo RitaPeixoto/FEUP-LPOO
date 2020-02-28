@@ -10,10 +10,11 @@ import java.io.IOException;
 
 public class Game {
     private Screen screen;
-    private int x=10;
-    private int y=10;
-
+    private int x;
+    private int y;
+    private Hero hero;
     public Game() {
+        hero = new Hero(10,10);
         try {
 
             Terminal terminal = new DefaultTerminalFactory().createTerminal();
@@ -30,7 +31,7 @@ public class Game {
     }
     private void draw() throws IOException {
         screen.clear();
-        screen.setCharacter(x, y, new TextCharacter('X'));
+        hero.draw(screen);
         screen.refresh();
     }
     public void run() throws IOException {
@@ -52,18 +53,17 @@ public class Game {
                 e.printStackTrace();
             }
         }
-        //Ponto 7 alinea 1
         else if(key.getKeyType() == KeyType.ArrowUp){
-            y +=1;
+            hero.moveUp();
         }
         else if(key.getKeyType() == KeyType.ArrowDown){
-            y -=1;
+            hero.moveDown();
         }
         else if(key.getKeyType() == KeyType.ArrowLeft){
-            x -=1;
+            hero.moveLeft();
         }
         else if(key.getKeyType() == KeyType.ArrowRight) {
-            x += 1;
+            hero.moveRight();
         }
         System.out.println(key);
     }
