@@ -12,7 +12,7 @@ public class Game {
     private Screen screen;
     private Arena arena;
     public Game() {
-        arena = new Arena(80,90);
+        arena = new Arena(80,24);
         try {
 
             Terminal terminal = new DefaultTerminalFactory().createTerminal();
