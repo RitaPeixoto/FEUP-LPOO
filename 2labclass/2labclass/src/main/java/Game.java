@@ -10,12 +10,9 @@ import java.io.IOException;
 
 public class Game {
     private Screen screen;
-    private int x;
-    private int y;
-    private Hero hero;
+    private Arena arena;
     public Game() {
-        Position position = new Position(10,10);
-        hero = new Hero(position);
+        arena = new Arena(80,90);
         try {
 
             Terminal terminal = new DefaultTerminalFactory().createTerminal();
@@ -24,7 +21,6 @@ public class Game {
             screen.setCursorPosition(null);   // we don't need a cursor
             screen.startScreen();             // screens must be started
             screen.doResizeIfNecessary();     // resize screen if necessary
-
         }
         catch (IOException e) {
             e.printStackTrace();
@@ -32,7 +28,7 @@ public class Game {
     }
     private void draw() throws IOException {
         screen.clear();
-        hero.draw(screen);
+        arena.draw(screen);
         screen.refresh();
     }
     public void run() throws IOException {
@@ -46,10 +42,8 @@ public class Game {
         }
 
     }
-    private void moveHero(Position position) {
-        hero.setPosition(position);
-    }
-    private void processKey(KeyStroke key){
+
+    private void processKey(KeyStroke key) {
         if(key.getKeyType()== KeyType.Character && key.getCharacter()=='q'){
             try {
                 screen.close();
@@ -57,21 +51,10 @@ public class Game {
                 e.printStackTrace();
             }
         }
-        else if(key.getKeyType() == KeyType.ArrowUp){
-            moveHero(hero.moveUp());
-        }
-        else if(key.getKeyType() == KeyType.ArrowDown){
-            moveHero(hero.moveDown());
-        }
-        else if(key.getKeyType() == KeyType.ArrowLeft){
-            moveHero(hero.moveLeft());
-        }
-        else if(key.getKeyType() == KeyType.ArrowRight) {
-            moveHero(hero.moveRight());
-        }
-        System.out.println(key);
+        arena.processKey(key);
     }
-    
+
+
 
 
 }
