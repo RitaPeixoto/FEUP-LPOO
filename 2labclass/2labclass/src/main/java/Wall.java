@@ -25,6 +25,9 @@ public class Wall {
         return y;
     }
 
+    public Position getPosition(){
+        return new Position(x,y);
+    }
     public void draw(TextGraphics graphics){
         graphics.setBackgroundColor(TextColor.Factory.fromString("#000000"));
         graphics.enableModifiers(SGR.BOLD);
