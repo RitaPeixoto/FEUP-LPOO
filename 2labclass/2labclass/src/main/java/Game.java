@@ -11,6 +11,7 @@ import java.io.IOException;
 public class Game {
     private Screen screen;
     private Arena arena;
+
     public Game() {
         arena = new Arena(80,24);
         try {
@@ -26,21 +27,26 @@ public class Game {
             e.printStackTrace();
         }
     }
+
     private void draw() throws IOException {
         screen.clear();
         arena.draw(screen.newTextGraphics());
         screen.refresh();
     }
+
     public void run() throws IOException {
         while(true){
             draw();
             KeyStroke key = screen.readInput();
             processKey(key);
+            if(arena.verifyMonsterCollisions() || arena.wonGame()){
+                screen.close();
+                break;
+            }
             if(key.getKeyType() == KeyType.EOF) {
                 break;
             }
         }
-
     }
 
     private void processKey(KeyStroke key) {
@@ -53,8 +59,5 @@ public class Game {
         }
         arena.processKey(key);
     }
-
-
-
 
 }

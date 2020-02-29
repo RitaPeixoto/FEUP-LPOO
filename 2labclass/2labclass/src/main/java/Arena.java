@@ -10,19 +10,25 @@ import com.googlecode.lanterna.screen.Screen;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class Arena {
     private int width;
     private int height;
     private Hero hero;
     private List<Wall> walls;
+    private List<Coin> coins;
+    private List<Monster> monsters;
 
     public  Arena(int width, int height){
         this.width = width;
         this.height = height;
-        hero = new Hero(new Position(10,10));
+        hero = new Hero(10,10);
         this.walls = createWalls();
+        this.coins = createCoins();
+        this.monsters = createMonsters();
     }
+
     private List<Wall> createWalls() {
         List<Wall> walls = new ArrayList<>();
 
@@ -39,17 +45,37 @@ public class Arena {
         return walls;
     }
 
+    private List<Coin> createCoins() {
+        Random random = new Random();
+        ArrayList<Coin> coins = new ArrayList<>();
+        for (int i = 0; i < 5; i++)
+            coins.add(new Coin(random.nextInt(width - 2) + 1, random.nextInt(height - 2) + 1));
+        return coins;
+    }
+
+    private List<Monster> createMonsters() {
+        Random random = new Random();
+        ArrayList<Monster> monsters = new ArrayList<>();
+        for (int i = 0; i < 5; i++)
+            monsters.add(new Monster(random.nextInt(width - 2) + 1, random.nextInt(height - 2) + 1));
+        return monsters;
+    }
+
     public  void draw(TextGraphics graphics){
         graphics.setBackgroundColor(TextColor.Factory.fromString("#bb00ff"));
         graphics.fillRectangle(new TerminalPosition(0, 0), new TerminalSize(width, height), ' ');
         for (Wall wall : walls)
             wall.draw(graphics);
+        for(Coin coin : coins)
+            coin.draw(graphics);
+        for(Monster monster: monsters)
+            monster.draw(graphics);
         hero.draw(graphics);
 
     }
 
     public void processKey(KeyStroke key){
-
+        moveMonsters();
         if(key.getKeyType() == KeyType.ArrowUp){
             moveHero(hero.moveUp());
         }
@@ -64,12 +90,18 @@ public class Arena {
         }
         System.out.println(key);
     }
+
     private void moveHero(Position position) {
         if(canMoveHero(position)){
             hero.setPosition(position);
+            for(Coin coin: coins)
+                if(coin.getPosition().equals(position)){
+                    retrieveCoins(position);
+                    break;
+                }
         }
-
     }
+
     private boolean canMoveHero(Position position){
         if(position.getX()>=0 && position.getX()<width && position.getY()>=0 && position.getY()<height){
             for(Wall wall : walls){
@@ -81,7 +113,56 @@ public class Arena {
         }
         return false;
     }
+    private boolean canMoveMonster(Position position){
+        if(position.getX()>=0 && position.getX()<width && position.getY()>=0 && position.getY()<height){
+            for(Wall wall : walls){
+                if(wall.getPosition().equals(position)){
+                    return false;
+                }
+            }
+            for(Monster monster: monsters)
+                if(monster.getPosition().equals(position))
+                    return false;
+            return true;
+        }
+        return false;
+    }
 
 
+    private void retrieveCoins(Position position){
+        for (int i = 0; i < coins.size(); i++) {
+            if (coins.get(i).getPosition().equals(position)) {
+                coins.remove(i);
+                break;
+            }
+        }
+    }
 
+    private void moveMonsters(){
+        Position next;
+        for(Monster monster: monsters){
+            next = monster.move();
+            if(canMoveMonster(next))
+                monster.setPosition(next);
+        }
+
+    }
+
+    public boolean verifyMonsterCollisions(){
+        for (Monster monster: monsters){
+            if(monster.getPosition().equals(hero.getPosition())){
+                System.out.println("You've just got eaten by the monster!");
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public boolean wonGame(){
+        if(coins.isEmpty()){
+            System.out.println("You've just won the game!");
+            return true;
+        }
+        return false;
+    }
 }
