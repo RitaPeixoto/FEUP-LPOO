@@ -19,6 +19,7 @@ public class Arena {
     private List<Wall> walls;
     private List<Coin> coins;
     private List<Monster> monsters;
+    private Position lastHero;
 
     public  Arena(int width, int height){
         this.width = width;
@@ -47,9 +48,21 @@ public class Arena {
 
     private List<Coin> createCoins() {
         Random random = new Random();
+        boolean exists=false;
+        Coin aux;
         ArrayList<Coin> coins = new ArrayList<>();
-        for (int i = 0; i < 5; i++)
-            coins.add(new Coin(random.nextInt(width - 2) + 1, random.nextInt(height - 2) + 1));
+        for (int i = 0; i < 5; i++){
+            aux = new Coin(random.nextInt(width - 2) + 1, random.nextInt(height - 2) + 1);
+            if(aux.getPosition().equals(hero.getPosition())){
+                i--;
+                continue;
+            }
+            else{
+                coins.add(aux);
+            }
+
+        }
+
         return coins;
     }
 
@@ -75,6 +88,7 @@ public class Arena {
     }
 
     public void processKey(KeyStroke key){
+        lastHero = hero.getPosition();
         moveMonsters();
         if(key.getKeyType() == KeyType.ArrowUp){
             moveHero(hero.moveUp());
@@ -120,6 +134,11 @@ public class Arena {
                     return false;
                 }
             }
+            for(Coin coin: coins){
+                if(coin.getPosition().equals(position)){
+                    return false;
+                }
+            }
             for(Monster monster: monsters)
                 if(monster.getPosition().equals(position))
                     return false;
@@ -150,9 +169,15 @@ public class Arena {
 
     public boolean verifyMonsterCollisions(){
         for (Monster monster: monsters){
-            if(monster.getPosition().equals(hero.getPosition())){
-                System.out.println("You've just got eaten by the monster!");
-                return true;
+            if((monster.getPosition().equals(hero.getPosition())) ||(monster.getPosition().equals(lastHero)) ){
+                if(hero.getEnergy()==0){
+                    System.out.println("You've just got eaten by the monster!");
+                    return true;
+                }
+                else{
+                    hero.setEnergy(hero.getEnergy()-1);
+                    return false;
+                }
             }
         }
         return false;

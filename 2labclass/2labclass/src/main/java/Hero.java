@@ -6,10 +6,17 @@ import com.googlecode.lanterna.graphics.TextGraphics;
 import com.googlecode.lanterna.screen.Screen;
 
 public class Hero extends Element{
-
+    private int energy;
 
     public Hero(int x, int y){
         super(x,y);
+        this.energy = 3;
+    }
+    public void setEnergy(int e){
+        this.energy = e;
+    }
+    public int getEnergy(){
+        return energy;
     }
 
     public  void draw(TextGraphics graphics){
