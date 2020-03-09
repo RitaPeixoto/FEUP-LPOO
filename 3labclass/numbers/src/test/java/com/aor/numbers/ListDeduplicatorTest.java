@@ -21,15 +21,24 @@ public class ListDeduplicatorTest {
     @Test
     public void deduplicate() {
         List<Integer> list = helper();
-
-        List<Integer> expected = new ArrayList<>();
+        class ListSortStub implements IListSorter {
+            public List<Integer> sort(){
+                List<Integer> unique = new ArrayList<>();
+                unique.add(1);
+                unique.add(2);
+                unique.add(2);
+                unique.add(4);
+                unique.add(5);
+                return unique;
+            }
+        }
+        ListDeduplicator deduplicator = new ListDeduplicator(list);
+        List<Integer> distinct = deduplicator.deduplicate(new ListSortStub());
+        List<Integer> expected=new ArrayList<>();
         expected.add(1);
         expected.add(2);
         expected.add(4);
         expected.add(5);
-
-        ListDeduplicator deduplicator = new ListDeduplicator(list);
-        List<Integer> distinct = deduplicator.deduplicate();
 
         assertEquals(expected, distinct);
     }

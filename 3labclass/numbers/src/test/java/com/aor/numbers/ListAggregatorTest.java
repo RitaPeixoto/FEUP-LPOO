@@ -66,6 +66,28 @@ public class ListAggregatorTest {
     }
     @Test
     public void distinct2() {
+        class ListDeduplicatorStub implements IListDeduplicator{
+            @Override
+            public List<Integer> deduplicate(IListSorter listSorter) {
+                List<Integer> unique = new ArrayList<>();
+                unique.add(1);
+                unique.add(2);
+                unique.add(4);
+                return unique;
+            }
+        }
+
+        class ListSorterStub implements IListSorter {
+            @Override
+            public List<Integer> sort() {
+                List<Integer> sorted = new ArrayList<>();
+                sorted.add(1);
+                sorted.add(2);
+                sorted.add(2);
+                sorted.add(4);
+                return sorted;
+            }
+        }
         List<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(2);
@@ -74,7 +96,7 @@ public class ListAggregatorTest {
 
         ListAggregator aggregator = new ListAggregator(list);
 
-        int distinct = aggregator.distinct();
+        int distinct = aggregator.distinct(new ListDeduplicatorStub(), new ListSorterStub());
 
         assertEquals(3, distinct);
     }
@@ -83,11 +105,33 @@ public class ListAggregatorTest {
 
     @Test
     public void distinct() {
+        class ListDeduplicatorStub implements IListDeduplicator{
+            @Override
+            public List<Integer> deduplicate(IListSorter listSorter) {
+                List<Integer> unique = new ArrayList<>();
+                unique.add(1);
+                unique.add(2);
+                unique.add(4);
+                unique.add(5);
+                return unique;
+            }
+        }
+        class ListSorterStub implements IListSorter {
+            @Override
+            public List<Integer> sort() {
+                List<Integer> sorted = new ArrayList<>();
+                sorted.add(1);
+                sorted.add(2);
+                sorted.add(2);
+                sorted.add(4);
+                return sorted;
+            }
+        }
         List<Integer> list = helper();
 
         ListAggregator aggregator = new ListAggregator(list);
 
-        int distinct = aggregator.distinct();
+        int distinct = aggregator.distinct(new ListDeduplicatorStub(), new ListSorterStub());
 
         assertEquals(4, distinct);
     }
