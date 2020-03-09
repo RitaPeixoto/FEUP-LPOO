@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListSorterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-09T16:35:38" hostname="LAPTOP-1MK3BJ23" time="0.0">
+<testsuite name="com.aor.numbers.ListSorterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-09T16:49:43" hostname="LAPTOP-1MK3BJ23" time="0.0">
   <properties/>
   <testcase name="sort" classname="com.aor.numbers.ListSorterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

@@ -30,6 +30,20 @@ public class ListAggregatorTest {
     }
 
     @Test
+    public void max2() {//exercise 4
+        List<Integer> list = new ArrayList<>();
+        list.add(-1);
+        list.add(-4);
+        list.add(-5);
+
+        ListAggregator aggregator = new ListAggregator(list);
+
+        int max = aggregator.max();
+
+        assertEquals(-1, max);
+    }
+
+    @Test
     public void max() {
         List<Integer> list = helper();
 
@@ -50,6 +64,22 @@ public class ListAggregatorTest {
 
         assertEquals(1, min);
     }
+    @Test
+    public void distinct2() {
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(4);
+        list.add(2);
+
+        ListAggregator aggregator = new ListAggregator(list);
+
+        int distinct = aggregator.distinct();
+
+        assertEquals(3, distinct);
+    }
+
+
 
     @Test
     public void distinct() {
