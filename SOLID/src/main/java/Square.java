@@ -13,7 +13,7 @@ public class Square implements AreaShape {
     }
     @Override
     public double getArea(){
-        return Math.pow(getSide(), 2);
+        return Math.pow(side, 2);
     }
 
     @Override

@@ -24,7 +24,7 @@ public class Rectangle implements AreaShape {
     }
     @Override
     public double getArea(){
-        return width*height;
+        return (width*height);
     }
     @Override
     public void draw(){

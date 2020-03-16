@@ -5,11 +5,13 @@ public class Application {
     public static void main(String[] args) {
         AreaAggregator areaagreg= new AreaAggregator();
 
-        areaagreg.addShape(new Circle(0.12));
-        areaagreg.addShape(new Square(6.4));
-        areaagreg.addShape(new Circle (2.1));
-        areaagreg.addShape(new Ellipse(2.1,3.4));
-        areaagreg.addShape(new Triangle(1.6,2.9));
+        areaagreg.addShape(new Square(10));
+        areaagreg.addShape(new Circle(5));
+        areaagreg.addShape(new Circle(2));
+        areaagreg.addShape(new Ellipse(2, 3));
+        areaagreg.addShape(new Rectangle(10, 5));
+        areaagreg.addShape(new Triangle(10, 2));
+        areaagreg.addShape(new House(100));
 
         AreaStringOutputter stringOutputter = new AreaStringOutputter(areaagreg);
         AreaXMLOutputter xmlOutputter = new AreaXMLOutputter(areaagreg);
