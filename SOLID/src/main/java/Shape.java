@@ -1,5 +1,5 @@
-public interface Shape extends BasicShape {
-    double getArea();
+public interface Shape extends Drawable{
+    //double getArea();
     //void draw();
 }
 

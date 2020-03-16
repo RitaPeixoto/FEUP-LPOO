@@ -1,4 +1,4 @@
-public class Rectangle implements Shape {
+public class Rectangle implements AreaShape {
     private double width;
     private double height;
     public Rectangle(double width, double height){
@@ -22,9 +22,11 @@ public class Rectangle implements Shape {
     public void setHeight(double height) {
         this.height = height;
     }
+    @Override
     public double getArea(){
         return width*height;
     }
+    @Override
     public void draw(){
         System.out.println("Retangle");
     }

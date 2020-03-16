@@ -1,19 +1,18 @@
-public class AreaStringOutputter {
-    private AreaAggregator areaaggreg;
-    public AreaStringOutputter(AreaAggregator areaagreg){
+public class AreaStringOutputter extends AreaAggregator{
+    private SumProvider areaaggreg;
+    public AreaStringOutputter(SumProvider areaagreg){
         this.areaaggreg = areaagreg;
     }
 
-    public AreaAggregator getAreaaggreg() {
+    public SumProvider getAreaaggreg() {
         return areaaggreg;
     }
 
-    public void setAreaaggreg(AreaAggregator areaaggreg) {
+    public void setAreaaggreg(SumProvider areaaggreg) {
         this.areaaggreg = areaaggreg;
     }
     public String output(){
-        double sum = areaaggreg.sum();
-        return "Sum of areas: " + sum;
+        return "Sum of areas: " + this.areaaggreg.sum();
     }
 }
 

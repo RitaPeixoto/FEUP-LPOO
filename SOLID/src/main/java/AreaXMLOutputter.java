@@ -1,18 +1,17 @@
-public class AreaXMLOutputter {
-    private AreaAggregator areaaggreg;
-    public AreaXMLOutputter(AreaAggregator areaagreg){
+public class AreaXMLOutputter extends AreaAggregator {
+    private SumProvider areaaggreg;
+    public AreaXMLOutputter(SumProvider areaagreg){
         this.areaaggreg = areaagreg;
     }
 
-    public AreaAggregator getAreaaggreg() {
+    public SumProvider getAreaaggreg() {
         return areaaggreg;
     }
 
-    public void setAreaaggreg(AreaAggregator areaaggreg) {
+    public void setAreaaggreg(SumProvider areaaggreg) {
         this.areaaggreg = areaaggreg;
     }
     public String output(){
-        double sum = areaaggreg.sum();
-        return "<area>"+sum+"</area>";
+        return "<area>"+this.areaaggreg.sum()+"</area>";
     }
 }

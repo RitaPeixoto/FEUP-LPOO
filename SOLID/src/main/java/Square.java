@@ -1,4 +1,4 @@
-public class Square implements Shape {
+public class Square implements AreaShape {
     private double side;
     public Square(double side ){
         super();
@@ -11,9 +11,12 @@ public class Square implements Shape {
     public void setSide(double side){
         this.side = side;
     }
+    @Override
     public double getArea(){
         return Math.pow(getSide(), 2);
     }
+
+    @Override
     public void draw(){
         System.out.println("Square");
     }
