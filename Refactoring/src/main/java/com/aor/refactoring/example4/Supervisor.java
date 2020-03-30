@@ -10,11 +10,9 @@ public class Supervisor extends Worker {
         super(name, phone, username, password);
         supervisee = new HashSet<>();
     }
-    
     public void addSupervisee(Worker worker) {
         supervisee.add(worker);
     }
-
     public boolean isSupervisee(Worker worker) {
         return supervisee.contains(worker);
     }

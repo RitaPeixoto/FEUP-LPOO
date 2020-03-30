@@ -29,12 +29,14 @@ public class Turtle {
             else if (direction == 'W') direction = 'S';
             else if (direction == 'S') direction = 'E';
             else if (direction == 'E') direction = 'N';
-        } else if (command == 'R') { // ROTATE RIGHT
+        }
+        else if (command == 'R') { // ROTATE RIGHT
             if (direction == 'N') direction = 'E';
             else if (direction == 'E') direction = 'S';
             else if (direction == 'S') direction = 'W';
             else if (direction == 'W') direction = 'N';
-        } else if (command == 'F'){ // MOVE FORWARD
+        }
+        else if (command == 'F'){ // MOVE FORWARD
             if (direction == 'N') row--;
             if (direction == 'S') row++;
             if (direction == 'W') column--;
