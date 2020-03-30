@@ -1,6 +1,6 @@
 package com.aor.refactoring.example3;
 
-public class Discount {
+public  class Discount {
     private final int fixed;
     private final double percentage;
 
