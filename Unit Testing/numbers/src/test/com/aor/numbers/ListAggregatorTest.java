@@ -5,8 +5,14 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
+/*
+* The tests are organized in three different phases:
+* Arrange - Where the test is setup and the data is arranged.
+* Act - Where the the actual method under test is invoked.
+* Assert - Where a single logical assert is used to test the outcome.
+* */
 public class ListAggregatorTest {
     private List<Integer> helper(){
         List<Integer> list = new ArrayList<>();
@@ -30,7 +36,7 @@ public class ListAggregatorTest {
     }
 
     @Test
-    public void max2() {//exercise 4
+    public void maxBug() {//exercise 4-- max all negative
         List<Integer> list = new ArrayList<>();
         list.add(-1);
         list.add(-4);
@@ -65,7 +71,7 @@ public class ListAggregatorTest {
         assertEquals(1, min);
     }
     @Test
-    public void distinct2() {
+    public void distinctBug() {
         class ListDeduplicatorStub implements IListDeduplicator{
             @Override
             public List<Integer> deduplicate(IListSorter listSorter) {

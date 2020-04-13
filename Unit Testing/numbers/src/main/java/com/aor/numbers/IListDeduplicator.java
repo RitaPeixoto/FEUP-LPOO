@@ -2,6 +2,6 @@ package com.aor.numbers;
 
 import java.util.List;
 
-interface IListDeduplicator{
-    public List<Integer> deduplicate(IListSorter listSorter);
+public interface IListDeduplicator{
+    public List<Integer> deduplicate(IListSorter listSorter);//exercise 5
 }
