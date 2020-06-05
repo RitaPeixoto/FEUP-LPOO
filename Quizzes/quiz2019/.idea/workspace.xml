@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de6b4454-d386-4d5a-9f16-cd8ad154727c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/AlienClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/Bar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/BarObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/FerengiClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/HumanClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/ImpatientStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/OrderingStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/RomulanClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/SmartStrategy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/StringBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/StringCaseChanger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/StringDrink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/StringInverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/StringRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/StringReplacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/StringTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/main/StringTransformerGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/classes/java/test/StringDrinkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/reports/tests/test/classes/StringDrinkTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/test-results/test/TEST-StringDrinkTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/AlienClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/Bar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/BarObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/FerengiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/HumanClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/ImpatientStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/OrderingStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/RomulanClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/SmartStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/StringBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/StringCaseChanger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/StringDrink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/StringInverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/StringRecipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/StringReplacer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/StringTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/main/java/StringTransformerGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Design Patterns/src/test/java/StringDrinkTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/classes/java/main/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/classes/java/main/Arena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/classes/java/main/Coin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/classes/java/main/Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/classes/java/main/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/classes/java/main/Hero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/classes/java/main/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/classes/java/main/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/classes/java/main/Wall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/libs/2labclass-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/main/java/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/main/java/Arena.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/main/java/Coin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/main/java/Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/main/java/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/main/java/Hero.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/main/java/Monster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/main/java/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/src/main/java/Wall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example1/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example1/OrderLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example1/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example2/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example2/GraphicFramework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example2/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example2/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example3/Discount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example3/FixedDiscount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example3/NullDiscount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example3/PercentageDiscount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example3/SimpleOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example4/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example4/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example4/Supervisor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example4/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example5/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example5/Turtle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example6/Location.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/main/com/aor/refactoring/example6/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/test/com/aor/refactoring/example1/OrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/test/com/aor/refactoring/example2/ShapeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/test/com/aor/refactoring/example3/SimpleOrderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/test/com/aor/refactoring/example4/WorkerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/test/com/aor/refactoring/example5/TurtleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/classes/java/test/com/aor/refactoring/example6/TreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/reports/tests/test/classes/com.aor.refactoring.example6.TreeTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/reports/tests/test/packages/com.aor.refactoring.example6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/test-results/test/TEST-com.aor.refactoring.example6.TreeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example1/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example1/OrderLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example1/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example2/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example2/GraphicFramework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example2/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example2/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example3/Discount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example3/FixedDiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example3/NullDiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example3/PercentageDiscount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example3/SimpleOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example4/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example4/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example4/Supervisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example4/Worker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example5/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example5/Turtle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example6/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/main/java/com/aor/refactoring/example6/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/test/java/com/aor/refactoring/example1/OrderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/test/java/com/aor/refactoring/example2/ShapeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/test/java/com/aor/refactoring/example3/SimpleOrderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/test/java/com/aor/refactoring/example4/WorkerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/test/java/com/aor/refactoring/example5/TurtleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Refactoring/src/test/java/com/aor/refactoring/example6/TreeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/AreaAggregator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/AreaShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/AreaStringOutputter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/AreaXMLOutputter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/Drawable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/Ellipse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/HasArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/SumProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/classes/java/main/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/distributions/area-calculator-1.0-SNAPSHOT.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/distributions/area-calculator-1.0-SNAPSHOT.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/libs/area-calculator-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/scripts/area-calculator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/scripts/area-calculator.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/AreaAggregator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/AreaShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/AreaStringOutputter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/AreaXMLOutputter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/Drawable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/Ellipse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/HasArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/SumProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SOLID/src/main/java/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/.idea/Unit Testing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/main/com/aor/numbers/IListDeduplicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/main/com/aor/numbers/IListSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/main/com/aor/numbers/ListAggregator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/main/com/aor/numbers/ListDeduplicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/main/com/aor/numbers/ListSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/test/com/aor/numbers/ListAggregatorTest$1ListDeduplicatorStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/test/com/aor/numbers/ListAggregatorTest$1ListSorterStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/test/com/aor/numbers/ListAggregatorTest$2ListDeduplicatorStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/test/com/aor/numbers/ListAggregatorTest$2ListSorterStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/test/com/aor/numbers/ListAggregatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/test/com/aor/numbers/ListDeduplicatorTest$1ListSortStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/test/com/aor/numbers/ListDeduplicatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/classes/java/test/com/aor/numbers/ListSorterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/reports/tests/test/classes/com.aor.numbers.ListAggregatorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/reports/tests/test/classes/com.aor.numbers.ListDeduplicatorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/reports/tests/test/classes/com.aor.numbers.ListSorterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/reports/tests/test/packages/com.aor.numbers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/test-results/test/TEST-com.aor.numbers.ListAggregatorTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/test-results/test/TEST-com.aor.numbers.ListDeduplicatorTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/test-results/test/TEST-com.aor.numbers.ListSorterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/classes/java/main/com/aor/numbers/ListAggregator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/classes/java/main/com/aor/numbers/ListDeduplicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/classes/java/main/com/aor/numbers/ListSorter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/classes/java/test/com/aor/numbers/ListAggregatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/classes/java/test/com/aor/numbers/ListDeduplicatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/classes/java/test/com/aor/numbers/ListSorterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/reports/tests/test/classes/com.aor.numbers.ListAggregatorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/reports/tests/test/classes/com.aor.numbers.ListDeduplicatorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/reports/tests/test/classes/com.aor.numbers.ListSorterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/reports/tests/test/packages/com.aor.numbers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/test-results/test/TEST-com.aor.numbers.ListAggregatorTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/test-results/test/TEST-com.aor.numbers.ListDeduplicatorTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/test-results/test/TEST-com.aor.numbers.ListSorterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/java/com/aor/numbers/DivisibleByFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/java/com/aor/numbers/IListDeduplicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/java/com/aor/numbers/IListFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/java/com/aor/numbers/IListSorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/java/com/aor/numbers/ListAggregator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/java/com/aor/numbers/ListDeduplicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/java/com/aor/numbers/ListFilterer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/java/com/aor/numbers/ListSorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/main/java/com/aor/numbers/PositiveFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/test/com/aor/numbers/DivisibleByFilterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/test/com/aor/numbers/ListAggregatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/test/com/aor/numbers/ListDeduplicatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/test/com/aor/numbers/ListFiltererTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/test/com/aor/numbers/ListSorterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Unit Testing/numbers/src/test/com/aor/numbers/PositiveFilterTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1coV2uN757LPoUVYe1qeuJioNRY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../quiz" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de6b4454-d386-4d5a-9f16-cd8ad154727c" name="Default Changelist" comment="" />
+      <created>1591194728253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591194728253</updated>
+      <workItem from="1591194731076" duration="333000" />
+      <workItem from="1591292099052" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1591292109019">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591292109019" />
+  </component>
+</project>
