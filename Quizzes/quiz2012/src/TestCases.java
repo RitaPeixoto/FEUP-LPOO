@@ -37,7 +37,7 @@ public class TestCases extends TestCase {
 		assertTrue(Arrays.equals(child, root.getChild()));
 	}
 	
-/*	public void testGetChildByName() throws DuplicateNameException {
+	public void testGetChildByName() throws DuplicateNameException {
 		FileSystem fs = new FileSystem("FAT32");
 		Folder root = fs.getRoot();		
 		Node node1 = new Folder(root, "bin");
@@ -105,7 +105,7 @@ public class TestCases extends TestCase {
 		Folder etc = new Folder(root, "etc");
 		Folder cron = new Folder(etc, "cron");
 		File crontab = new File(cron, "crontab");
-		
+
 		// clone permite copiar um n� e todos os seus descendentes
 		Folder etc2 = etc.clone(root, "etc2"); // newParent, newName
 		assertSame(root, etc2.getParent());
@@ -114,8 +114,8 @@ public class TestCases extends TestCase {
 		// verifica que copiou tamb�m o filho
 		Folder cron2 = (Folder)etc2.getChildByName("cron");
 		assertNotSame(cron, cron2); // pastas diferentes
-		assertEquals(cron, cron2); // mas com o mesmo conte�do (nome, filhos) 
-		
+		assertEquals(cron, cron2); // mas com o mesmo conte�do (nome, filhos)
+
 		// ... e o neto
 		File crontab2 = (File)cron2.getChildByName("crontab");
 		assertNotSame(crontab, crontab2); // ficheiros diferentes
@@ -123,7 +123,7 @@ public class TestCases extends TestCase {
 	}
 	
 
-	public void testMove() throws DuplicateNameException, CycleException {
+	/*public void testMove() throws DuplicateNameException, CycleException {
 		FileSystem fs = new FileSystem("FAT32");
 		fs.setNameFormatter(new UnixFormatter());
 		Folder root = fs.getRoot();		
