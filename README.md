@@ -6,8 +6,8 @@ Resolução dos exercícios das aulas práticas + Resolução de alguns quizzes 
 
 ### Nota do projeto 
 
-| Classificação do projeto | ??.? |
-|--------------------------|------|
+| Classificação do projeto | 16.67 |
+|--------------------------|-------|
 
 
 ### Projeto realizado com: 
